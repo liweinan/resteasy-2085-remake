@@ -6,3 +6,7 @@ Reproducer for restreasy issue 2085
 * copy `resteasy-2085.war` to `tomcat/webapps` folder
 * start Tomcat
 * open `http://localhost:8080/resteasy-2085/` 
+
+---
+
+http://localhost:9090/index.html
