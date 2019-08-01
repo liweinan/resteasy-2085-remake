@@ -11,15 +11,21 @@
         <!-- works -->
         <!--   <resteasy.version>3.6.1.SP1</resteasy.version>-->
         <!-- resteasy 2085 -->
-        <resteasy.version>3.6.2.Final</resteasy.version>
+        <resteasy.version>4.2.0-SNAPSHOT</resteasy.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-jaxrs</artifactId>
+            <artifactId>resteasy-core</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-core-spi</artifactId>
+            <version>${resteasy.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-servlet-initializer</artifactId>

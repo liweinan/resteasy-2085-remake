@@ -11,8 +11,6 @@ import javax.ws.rs.core.MediaType;
 @Path("/simple")
 public class SimpleRestResource {
 
-	
-	
 	@Path("/date")
 	@GET
 	@Produces({MediaType.TEXT_PLAIN})
