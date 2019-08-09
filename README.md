@@ -9,4 +9,18 @@ Reproducer for restreasy issue 2085
 
 ---
 
-http://localhost:9090/index.html
+```bash
+export MAVEN_OPTS='-Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005'
+```
+
+```bash
+$ mvn tomcat7:run
+```
+
+```bash
+$ curl http://localhost:9090
+```
+
+```bash
+$ http http://localhost:9090/app/simple/date
+```

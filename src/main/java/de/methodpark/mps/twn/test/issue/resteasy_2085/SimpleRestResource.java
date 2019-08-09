@@ -18,6 +18,4 @@ public class SimpleRestResource {
 	public String getDate() {
 		return "Today is "+ new Date();
 	}
-	
-	
 }
