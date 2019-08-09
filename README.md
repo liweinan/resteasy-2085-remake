@@ -24,3 +24,9 @@ $ curl http://localhost:9090
 ```bash
 $ http http://localhost:9090/app/simple/date
 ```
+
+## build tips
+
+```bash
+$ mvn install -DdownloadSources=true -DdownloadJavadocs=true
+```
