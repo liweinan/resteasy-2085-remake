@@ -11,7 +11,7 @@
         <!-- works -->
         <!--   <resteasy.version>3.6.1.SP1</resteasy.version>-->
         <!-- resteasy 2085 -->
-        <resteasy.version>4.3.0-SNAPSHOT</resteasy.version>
+        <resteasy.version>4.6.1.Beta5</resteasy.version>
     </properties>
 
     <dependencies>
